@@ -16,21 +16,26 @@ def main():
 
 
 #-------------functions for Fields-------------------------------------------------
+        # 3.2 func  random generate fictional year
+        def read_book_name() -> str:
+            tmp_year = random.sample(digits, lenght_)
+            tmp_year_str = "".join(tmp_year)
 
+            return tmp_year_str
 
     # 3.2 func  random generate fictional year
     def generate_random_year(lenght_= 4) -> int:
         tmp_year = random.sample(digits, lenght_)
         tmp_year_str = "".join(tmp_year)
 
-        return tmp_year_str
+        return int(tmp_year_str)
 
     # 3.3 func  random generate pages
-    def generate_random_pages(lenght_= 3) -> str:
+    def generate_random_pages(lenght_= 3) -> int:
         tmp_pages = random.sample(digits, lenght_)
         tmp_pages_str = "".join(tmp_pages)
 
-        return tmp_pages_str
+        return int(tmp_pages_str)
 
     # 3.4 func random generate "isbn13" from Faker
     # def generate_random_pages(lenght_= 3) -> str:

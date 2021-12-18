@@ -19,12 +19,11 @@ import random
 from itertools import count
 
 
-# 3.6 func random generate price(float)
-def generate_random_rating() -> float:
-    # tmp_taring = random.randint(0, 5) + random.random()
-    tmp_rating = round(random.random(0, 5), 7)
+def generate_random_pages(lenght_=3) -> str:
+    tmp_pages = random.sample(digits, lenght_)
+    tmp_pages_str = "".join(tmp_pages)
 
-    return tmp_rating
+    return int(tmp_pages_str)
 
-k = generate_random_rating()
+k = generate_random_pages()
 print(k, type(k))
