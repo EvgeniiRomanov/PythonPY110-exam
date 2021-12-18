@@ -18,7 +18,7 @@ def main():
 
 #-------------functions for Fields-------------------------------------------------
     # 3.1 func random read one book from file book.txt
-    def read_rows_from_book() -> str:
+    def read_random_bookname_fromfile() -> str:
         with open(INPUT_FILE, "r", encoding="UTF8") as f:
             rows_ = f.readlines()
             rows_ = [x.strip() for x in rows_]
@@ -42,8 +42,9 @@ def main():
 
         return int(tmp_pages_str)
 
+
     # 3.4 func generate random isbn13
-    def gen_isbn13() -> str:
+    def generate_random_isbn13() -> str:
         fake = Faker()
         isbn13_ = fake.isbn13()
 
@@ -57,6 +58,7 @@ def main():
 
         return tmp_rating
 
+
     # 3.6 func random generate price(float)
     def generate_random_price() -> float:
         #tmp_taring = random.randint(0, 5) + random.random()
@@ -66,7 +68,7 @@ def main():
 
 
     # 3.7 func random generate from 1 to 3 authors
-    def gen_random_author() -> list:
+    def generate_random_author() -> list:
         name_author = []
         count_ = random.randint(1, 3)
         for i in range(count_):
@@ -75,6 +77,18 @@ def main():
 
         return name_author
 
+    # func create fields
+    fields_dict_ = {
+        "title": read_random_bookname_fromfile(),
+        "year": generate_random_year(),
+        "pages": generate_random_pages(),
+        "isbn13": generate_random_isbn13(),
+        "rating": generate_random_rating(),
+        "price": generate_random_price(),
+        "author": generate_random_author()
+    }
+
+    print(fields_dict_)
 
 if __name__ == '__main__':
     main()
