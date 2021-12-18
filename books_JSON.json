@@ -1,16 +1,95 @@
 [
     {
         "model": "shop_final.book",
+        "pk": 1,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 1918,
+            "pages": 195,
+            "isbn13": "978-1-296-20436-5",
+            "rating": 1.7204331,
+            "price": 945.29,
+            "author": [
+                "Jared Lynch"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 2,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 1866,
+            "pages": 959,
+            "isbn13": "978-1-79720-269-3",
+            "rating": 0.7358987,
+            "price": 1650.41,
+            "author": [
+                "Christina Lynch",
+                "Mr. Jerry Morris"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 3,
+        "fields": {
+            "title": "Каштанка",
+            "year": 1921,
+            "pages": 328,
+            "isbn13": "978-0-225-55435-9",
+            "rating": 4.7176261,
+            "price": 166.29,
+            "author": [
+                "Luis Frank",
+                "Sharon Murray"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 4,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1827,
+            "pages": 396,
+            "isbn13": "978-0-414-71914-9",
+            "rating": 0.598579,
+            "price": 1428.37,
+            "author": [
+                "Julie Cummings"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 5,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1973,
+            "pages": 708,
+            "isbn13": "978-1-213-43124-9",
+            "rating": 2.4500214,
+            "price": 418.83,
+            "author": [
+                "Pamela Brennan",
+                "Sharon Bailey",
+                "Chelsea Robinson"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
         "pk": 6,
         "fields": {
             "title": "Обезьяны против людей",
-            "year": 3792,
-            "pages": 702,
-            "isbn13": "978-1-69735-067-8",
-            "rating": 4.3368692,
-            "price": 1745.22,
+            "year": 2081,
+            "pages": 138,
+            "isbn13": "978-1-152-29138-6",
+            "rating": 1.8895407,
+            "price": 1877.34,
             "author": [
-                "Tammy Martin"
+                "Stephanie Johnson"
             ]
         }
     },
@@ -18,16 +97,15 @@
         "model": "shop_final.book",
         "pk": 7,
         "fields": {
-            "title": "Каштанка",
-            "year": 4752,
-            "pages": 653,
-            "isbn13": "978-0-09-027589-2",
-            "rating": 1.3641467,
-            "price": 1268.57,
+            "title": "Обезьяны против людей",
+            "year": 2059,
+            "pages": 217,
+            "isbn13": "978-0-03-896141-2",
+            "rating": 2.6077309,
+            "price": 1748.6,
             "author": [
-                "Regina Smith",
-                "Tara Mcdonald",
-                "Katherine Stephens"
+                "Joann Estrada",
+                "Daniel Lucas"
             ]
         }
     },
@@ -36,15 +114,15 @@
         "pk": 8,
         "fields": {
             "title": "Мцыри",
-            "year": 2540,
-            "pages": 492,
-            "isbn13": "978-0-356-96518-5",
-            "rating": 3.538505,
-            "price": 1592.71,
+            "year": 2018,
+            "pages": 374,
+            "isbn13": "978-1-990230-04-2",
+            "rating": 4.4203693,
+            "price": 1397.19,
             "author": [
-                "Hannah Lambert",
-                "Steven Cole",
-                "Allen Smith"
+                "Jessica Allen",
+                "Melanie Marshall",
+                "Willie Warren"
             ]
         }
     },
@@ -52,14 +130,16 @@
         "model": "shop_final.book",
         "pk": 9,
         "fields": {
-            "title": "Каштанка",
-            "year": 3065,
-            "pages": 760,
-            "isbn13": "978-1-56300-521-3",
-            "rating": 0.0700536,
-            "price": 1688.28,
+            "title": "Мцыри",
+            "year": 1927,
+            "pages": 992,
+            "isbn13": "978-1-64916-777-4",
+            "rating": 0.0096944,
+            "price": 810.08,
             "author": [
-                "Travis Kelley"
+                "Priscilla Wallace",
+                "Peter Walker",
+                "Grace Rodriguez"
             ]
         }
     },
@@ -67,15 +147,1459 @@
         "model": "shop_final.book",
         "pk": 10,
         "fields": {
-            "title": "Приключения Шурика",
-            "year": 9276,
-            "pages": 176,
-            "isbn13": "978-1-217-02874-2",
-            "rating": 2.6234413,
-            "price": 854.85,
+            "title": "Обезьяны против людей",
+            "year": 2093,
+            "pages": 109,
+            "isbn13": "978-1-02-826875-7",
+            "rating": 2.5894836,
+            "price": 628.27,
             "author": [
-                "Shawn Kim MD",
-                "Steven Buchanan"
+                "Lindsey Parker",
+                "Charles Hernandez",
+                "Gary Mann"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 11,
+        "fields": {
+            "title": "Каштанка",
+            "year": 1871,
+            "pages": 650,
+            "isbn13": "978-0-9984316-8-0",
+            "rating": 4.1727515,
+            "price": 1894.23,
+            "author": [
+                "Dylan Hughes DVM",
+                "James Martin"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 12,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 2001,
+            "pages": 666,
+            "isbn13": "978-0-386-88280-3",
+            "rating": 4.9253986,
+            "price": 350.83,
+            "author": [
+                "Sarah Lee"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 13,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 2021,
+            "pages": 978,
+            "isbn13": "978-1-314-42174-3",
+            "rating": 2.3602137,
+            "price": 1171.59,
+            "author": [
+                "Sean Marquez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 14,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 2061,
+            "pages": 897,
+            "isbn13": "978-1-4363-7692-1",
+            "rating": 0.1622031,
+            "price": 518.12,
+            "author": [
+                "Jared Smith",
+                "Kyle Maynard"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 15,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1993,
+            "pages": 273,
+            "isbn13": "978-0-12-263063-7",
+            "rating": 1.5359272,
+            "price": 271.04,
+            "author": [
+                "Stephen Harrison",
+                "Daniel Evans",
+                "Suzanne Ray"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 16,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1874,
+            "pages": 228,
+            "isbn13": "978-1-60063-867-1",
+            "rating": 0.9171661,
+            "price": 1102.73,
+            "author": [
+                "Scott Harris"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 17,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 2024,
+            "pages": 153,
+            "isbn13": "978-0-512-57680-4",
+            "rating": 0.4079039,
+            "price": 1394.77,
+            "author": [
+                "Bruce Martin",
+                "Jordan Miranda",
+                "Michael Gonzalez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 18,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 1824,
+            "pages": 679,
+            "isbn13": "978-1-01-826196-6",
+            "rating": 0.0166511,
+            "price": 1715.87,
+            "author": [
+                "Zachary Vaughn",
+                "Carolyn Brown",
+                "Katie Lopez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 19,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 1882,
+            "pages": 737,
+            "isbn13": "978-0-484-21905-1",
+            "rating": 3.7416597,
+            "price": 362.78,
+            "author": [
+                "Jessica Tyler"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 20,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 2011,
+            "pages": 383,
+            "isbn13": "978-0-7150-4593-0",
+            "rating": 0.7170437,
+            "price": 558.31,
+            "author": [
+                "Jose King",
+                "Susan Ramos"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 21,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1861,
+            "pages": 413,
+            "isbn13": "978-1-85905-116-0",
+            "rating": 2.0177165,
+            "price": 883.65,
+            "author": [
+                "Shannon Gonzalez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 22,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 1862,
+            "pages": 674,
+            "isbn13": "978-0-05-118369-3",
+            "rating": 3.2373108,
+            "price": 391.58,
+            "author": [
+                "Andrew Hopkins"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 23,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1897,
+            "pages": 825,
+            "isbn13": "978-1-307-14106-1",
+            "rating": 3.3673516,
+            "price": 1651.18,
+            "author": [
+                "Kent Clark",
+                "Manuel Bartlett"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 24,
+        "fields": {
+            "title": "Каштанка",
+            "year": 2081,
+            "pages": 954,
+            "isbn13": "978-1-338-22367-5",
+            "rating": 3.8339027,
+            "price": 1149.35,
+            "author": [
+                "Michelle Brown",
+                "Zachary Castillo",
+                "Vanessa Robertson"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 25,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 2012,
+            "pages": 298,
+            "isbn13": "978-1-890113-06-3",
+            "rating": 3.0066308,
+            "price": 1511.33,
+            "author": [
+                "Jill Barrett DVM",
+                "Robert King"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 26,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1966,
+            "pages": 249,
+            "isbn13": "978-0-7559-5811-5",
+            "rating": 0.2973108,
+            "price": 380.32,
+            "author": [
+                "Heather Clark",
+                "Keith Lloyd",
+                "Krystal Washington"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 27,
+        "fields": {
+            "title": "Мцыри",
+            "year": 2077,
+            "pages": 212,
+            "isbn13": "978-1-281-29354-1",
+            "rating": 2.3645335,
+            "price": 1335.8,
+            "author": [
+                "Kelly Shaw",
+                "Tracy Harris",
+                "Veronica Powell"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 28,
+        "fields": {
+            "title": "Каштанка",
+            "year": 1955,
+            "pages": 971,
+            "isbn13": "978-0-9876152-9-9",
+            "rating": 3.2236989,
+            "price": 397.29,
+            "author": [
+                "Andrea Pollard",
+                "Heidi Harper",
+                "Stacy Tucker"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 29,
+        "fields": {
+            "title": "Каштанка",
+            "year": 1991,
+            "pages": 867,
+            "isbn13": "978-1-315-67444-5",
+            "rating": 0.6575102,
+            "price": 443.75,
+            "author": [
+                "Diane Welch",
+                "Kimberly Price"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 30,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 2037,
+            "pages": 300,
+            "isbn13": "978-0-260-77733-1",
+            "rating": 0.5580955,
+            "price": 555.06,
+            "author": [
+                "Carl Li",
+                "Richard Vargas",
+                "Stephanie Chavez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 31,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 1986,
+            "pages": 512,
+            "isbn13": "978-0-7506-6045-7",
+            "rating": 0.7990859,
+            "price": 553.38,
+            "author": [
+                "Daniel Riley"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 32,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 2099,
+            "pages": 376,
+            "isbn13": "978-1-399-42993-1",
+            "rating": 0.6134241,
+            "price": 1909.25,
+            "author": [
+                "Katherine Clarke",
+                "Melinda Jones",
+                "Mr. John Moore"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 33,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 1985,
+            "pages": 567,
+            "isbn13": "978-0-251-85764-6",
+            "rating": 3.5984409,
+            "price": 1463.23,
+            "author": [
+                "Brendan Juarez",
+                "John Stokes"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 34,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 1898,
+            "pages": 664,
+            "isbn13": "978-0-345-17483-3",
+            "rating": 4.6658049,
+            "price": 138.8,
+            "author": [
+                "Joshua Johnson"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 35,
+        "fields": {
+            "title": "Каштанка",
+            "year": 1924,
+            "pages": 697,
+            "isbn13": "978-0-366-19425-4",
+            "rating": 3.0560248,
+            "price": 1742.35,
+            "author": [
+                "Chad Montes"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 36,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 2051,
+            "pages": 278,
+            "isbn13": "978-1-939992-35-2",
+            "rating": 1.2875677,
+            "price": 711.37,
+            "author": [
+                "Samuel Gray",
+                "Brandon Davis"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 37,
+        "fields": {
+            "title": "Каштанка",
+            "year": 1862,
+            "pages": 671,
+            "isbn13": "978-0-271-82405-5",
+            "rating": 1.4006229,
+            "price": 1300.88,
+            "author": [
+                "Stephen Cunningham"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 38,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1804,
+            "pages": 483,
+            "isbn13": "978-1-149-98518-2",
+            "rating": 0.0439172,
+            "price": 462.9,
+            "author": [
+                "Douglas Horton",
+                "John Lane",
+                "Abigail Reid"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 39,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 1945,
+            "pages": 338,
+            "isbn13": "978-0-04-838509-3",
+            "rating": 4.3634993,
+            "price": 112.47,
+            "author": [
+                "Derek Johnston",
+                "Patrick Berger"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 40,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1948,
+            "pages": 294,
+            "isbn13": "978-1-9783-7259-7",
+            "rating": 1.8231241,
+            "price": 1084.64,
+            "author": [
+                "Elijah Perez III",
+                "Robert Roberts",
+                "Eric Johnson"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 41,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 2073,
+            "pages": 793,
+            "isbn13": "978-1-377-16938-5",
+            "rating": 2.7698854,
+            "price": 1863.82,
+            "author": [
+                "John Jones",
+                "Kevin Burke"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 42,
+        "fields": {
+            "title": "Каштанка",
+            "year": 2047,
+            "pages": 159,
+            "isbn13": "978-1-163-00779-2",
+            "rating": 0.8255411,
+            "price": 107.03,
+            "author": [
+                "Kayla Rogers",
+                "Jennifer Weber"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 43,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 2091,
+            "pages": 315,
+            "isbn13": "978-0-562-26795-0",
+            "rating": 3.7682672,
+            "price": 565.64,
+            "author": [
+                "Courtney Stevens"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 44,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 2025,
+            "pages": 348,
+            "isbn13": "978-0-407-17110-7",
+            "rating": 4.6028254,
+            "price": 716.35,
+            "author": [
+                "Kimberly Lawrence",
+                "Michael Sanchez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 45,
+        "fields": {
+            "title": "Каштанка",
+            "year": 1840,
+            "pages": 404,
+            "isbn13": "978-0-351-41525-8",
+            "rating": 3.0019923,
+            "price": 727.19,
+            "author": [
+                "Daniel Morris"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 46,
+        "fields": {
+            "title": "Мцыри",
+            "year": 2027,
+            "pages": 775,
+            "isbn13": "978-0-557-92418-9",
+            "rating": 4.1891557,
+            "price": 1049.75,
+            "author": [
+                "Caroline Drake",
+                "Leslie Gibson"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 47,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1866,
+            "pages": 793,
+            "isbn13": "978-1-4803-2305-6",
+            "rating": 4.8724424,
+            "price": 191.93,
+            "author": [
+                "Ms. Ashlee Bailey DVM"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 48,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 1976,
+            "pages": 134,
+            "isbn13": "978-0-88615-319-9",
+            "rating": 0.5289845,
+            "price": 1870.44,
+            "author": [
+                "Michael Higgins",
+                "Sheri Randolph",
+                "Deanna Oneal"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 49,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1877,
+            "pages": 727,
+            "isbn13": "978-0-12-992234-6",
+            "rating": 1.2338361,
+            "price": 1078.89,
+            "author": [
+                "John Fernandez",
+                "Susan Greene",
+                "Katherine Hernandez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 50,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 2034,
+            "pages": 695,
+            "isbn13": "978-1-01-596462-4",
+            "rating": 4.4675887,
+            "price": 1767.36,
+            "author": [
+                "Ralph Henderson",
+                "Matthew Evans",
+                "Alice Chaney"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 51,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1826,
+            "pages": 608,
+            "isbn13": "978-1-135-47204-7",
+            "rating": 4.3963229,
+            "price": 1387.47,
+            "author": [
+                "Danielle Obrien"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 52,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 1936,
+            "pages": 423,
+            "isbn13": "978-1-79044-837-1",
+            "rating": 1.4115805,
+            "price": 591.56,
+            "author": [
+                "Emily Gray",
+                "Crystal Smith"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 53,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 1974,
+            "pages": 643,
+            "isbn13": "978-1-376-29653-2",
+            "rating": 2.8536437,
+            "price": 1113.4,
+            "author": [
+                "Carol Hernandez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 54,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1931,
+            "pages": 573,
+            "isbn13": "978-0-13-399431-5",
+            "rating": 3.5343517,
+            "price": 1893.66,
+            "author": [
+                "Kimberly Anderson"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 55,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 2072,
+            "pages": 990,
+            "isbn13": "978-0-10-435910-5",
+            "rating": 0.9359713,
+            "price": 1383.85,
+            "author": [
+                "Kenneth Fisher",
+                "Lynn Stone",
+                "David Copeland"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 56,
+        "fields": {
+            "title": "Каштанка",
+            "year": 1825,
+            "pages": 246,
+            "isbn13": "978-0-9663874-3-8",
+            "rating": 2.717834,
+            "price": 1308.99,
+            "author": [
+                "Adam Green"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 57,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 1997,
+            "pages": 702,
+            "isbn13": "978-1-951444-55-6",
+            "rating": 2.6485518,
+            "price": 416.26,
+            "author": [
+                "Scott Sparks"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 58,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 2060,
+            "pages": 339,
+            "isbn13": "978-1-4556-7071-0",
+            "rating": 0.1149821,
+            "price": 687.67,
+            "author": [
+                "Seth Cruz"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 59,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1891,
+            "pages": 900,
+            "isbn13": "978-1-289-10678-2",
+            "rating": 1.2335993,
+            "price": 241.3,
+            "author": [
+                "Shari Simmons",
+                "Hector Osborne"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 60,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1952,
+            "pages": 237,
+            "isbn13": "978-0-419-22148-7",
+            "rating": 1.8366471,
+            "price": 1856.37,
+            "author": [
+                "Kristin Jackson",
+                "Rachel Smith"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 61,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 2024,
+            "pages": 387,
+            "isbn13": "978-0-323-53098-9",
+            "rating": 3.8872092,
+            "price": 1992.94,
+            "author": [
+                "Justin Jefferson"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 62,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1885,
+            "pages": 424,
+            "isbn13": "978-1-5449-0595-2",
+            "rating": 0.0966253,
+            "price": 1127.71,
+            "author": [
+                "Patricia Medina",
+                "Douglas Gutierrez",
+                "Brittany Hayes"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 63,
+        "fields": {
+            "title": "Мцыри",
+            "year": 2068,
+            "pages": 225,
+            "isbn13": "978-0-323-14415-5",
+            "rating": 4.3873127,
+            "price": 724.62,
+            "author": [
+                "Paul Hampton",
+                "Michael Burke",
+                "Jerry Johnson"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 64,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 1834,
+            "pages": 938,
+            "isbn13": "978-1-58840-594-4",
+            "rating": 4.2868064,
+            "price": 1409.96,
+            "author": [
+                "Richard Thornton",
+                "Robert Brady",
+                "Susan Lawrence MD"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 65,
+        "fields": {
+            "title": "Каштанка",
+            "year": 2086,
+            "pages": 718,
+            "isbn13": "978-0-455-00594-2",
+            "rating": 2.6952885,
+            "price": 1136.42,
+            "author": [
+                "Charles Macias"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 66,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1922,
+            "pages": 541,
+            "isbn13": "978-0-359-68978-1",
+            "rating": 2.0152889,
+            "price": 1010.49,
+            "author": [
+                "William Griffin",
+                "Jennifer Zhang"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 67,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1837,
+            "pages": 783,
+            "isbn13": "978-1-64722-929-0",
+            "rating": 2.6736783,
+            "price": 156.78,
+            "author": [
+                "Douglas Sanders",
+                "Michele Taylor"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 68,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1996,
+            "pages": 313,
+            "isbn13": "978-0-9857182-8-2",
+            "rating": 4.18097,
+            "price": 1183.8,
+            "author": [
+                "Elizabeth Reed",
+                "Amy Gates",
+                "Christopher Johnson"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 69,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 1869,
+            "pages": 732,
+            "isbn13": "978-1-83888-188-7",
+            "rating": 2.9398526,
+            "price": 548.96,
+            "author": [
+                "Stephanie Miller",
+                "Mr. Frank Hansen"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 70,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1995,
+            "pages": 199,
+            "isbn13": "978-1-265-97147-2",
+            "rating": 0.2516031,
+            "price": 1377.9,
+            "author": [
+                "Lisa Peck"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 71,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1894,
+            "pages": 940,
+            "isbn13": "978-0-249-36448-4",
+            "rating": 3.7206675,
+            "price": 199.99,
+            "author": [
+                "Curtis Johnson",
+                "Maurice Martin"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 72,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 1888,
+            "pages": 474,
+            "isbn13": "978-1-972178-36-2",
+            "rating": 4.0681848,
+            "price": 201.09,
+            "author": [
+                "Emily Walker",
+                "Kyle Lewis"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 73,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1906,
+            "pages": 503,
+            "isbn13": "978-1-82379-957-9",
+            "rating": 4.5398035,
+            "price": 1381.65,
+            "author": [
+                "Gloria Reeves"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 74,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 1910,
+            "pages": 680,
+            "isbn13": "978-1-66179-888-8",
+            "rating": 0.8094159,
+            "price": 364.76,
+            "author": [
+                "Alexander Carroll",
+                "Nicole Sullivan",
+                "Vernon Armstrong"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 75,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1954,
+            "pages": 265,
+            "isbn13": "978-0-11-075238-9",
+            "rating": 3.7464621,
+            "price": 804.68,
+            "author": [
+                "Alexandra Warren DVM",
+                "Anthony Lloyd",
+                "Isabel Hutchinson"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 76,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 2069,
+            "pages": 172,
+            "isbn13": "978-1-55499-851-7",
+            "rating": 0.5638753,
+            "price": 1245.05,
+            "author": [
+                "John Hester"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 77,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 2096,
+            "pages": 999,
+            "isbn13": "978-1-245-83299-1",
+            "rating": 2.7221541,
+            "price": 970.54,
+            "author": [
+                "Tony King",
+                "Lisa Stewart",
+                "Timothy Brady"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 78,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1952,
+            "pages": 310,
+            "isbn13": "978-0-418-50708-7",
+            "rating": 0.3968519,
+            "price": 172.2,
+            "author": [
+                "Danielle Hernandez",
+                "Mary Levine MD"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 79,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 2100,
+            "pages": 126,
+            "isbn13": "978-1-63688-743-2",
+            "rating": 4.5390125,
+            "price": 1573.44,
+            "author": [
+                "Sandra Solis"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 80,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 2053,
+            "pages": 192,
+            "isbn13": "978-1-82300-497-0",
+            "rating": 2.7824144,
+            "price": 1400.58,
+            "author": [
+                "Michael Lewis",
+                "Randy Chandler",
+                "Heidi Lambert"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 81,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1976,
+            "pages": 258,
+            "isbn13": "978-0-532-31971-9",
+            "rating": 3.4071537,
+            "price": 1384.56,
+            "author": [
+                "Nicole Cannon",
+                "Leah Morris DVM"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 82,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1965,
+            "pages": 335,
+            "isbn13": "978-0-523-29221-2",
+            "rating": 3.1688511,
+            "price": 209.19,
+            "author": [
+                "Jennifer Carey"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 83,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1995,
+            "pages": 675,
+            "isbn13": "978-1-929590-39-1",
+            "rating": 4.7086145,
+            "price": 1479.15,
+            "author": [
+                "Brent Poole"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 84,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 1802,
+            "pages": 872,
+            "isbn13": "978-0-658-91432-4",
+            "rating": 3.6624311,
+            "price": 1132.81,
+            "author": [
+                "Michelle Gomez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 85,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1970,
+            "pages": 439,
+            "isbn13": "978-0-8181-3409-8",
+            "rating": 3.6963744,
+            "price": 1533.77,
+            "author": [
+                "Christopher Holmes",
+                "Benjamin Coleman"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 86,
+        "fields": {
+            "title": "Каштанка",
+            "year": 1810,
+            "pages": 201,
+            "isbn13": "978-1-135-36116-7",
+            "rating": 4.5020227,
+            "price": 1681.68,
+            "author": [
+                "Christopher Thompson",
+                "Christopher Watkins",
+                "Shirley Morgan"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 87,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 1976,
+            "pages": 701,
+            "isbn13": "978-0-8471-2948-5",
+            "rating": 0.723233,
+            "price": 475.75,
+            "author": [
+                "Debra Lee",
+                "Julie Fuentes"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 88,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 1944,
+            "pages": 303,
+            "isbn13": "978-1-63399-163-7",
+            "rating": 1.3253238,
+            "price": 1308.53,
+            "author": [
+                "Stephen Smith"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 89,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1800,
+            "pages": 848,
+            "isbn13": "978-0-9546733-5-2",
+            "rating": 2.9706914,
+            "price": 201.88,
+            "author": [
+                "Ariel Sandoval",
+                "Erica Martinez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 90,
+        "fields": {
+            "title": "Каштанка",
+            "year": 1800,
+            "pages": 955,
+            "isbn13": "978-1-4972-0030-2",
+            "rating": 3.5604219,
+            "price": 886.46,
+            "author": [
+                "Ashley Lopez",
+                "Steven Graham"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 91,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 2036,
+            "pages": 737,
+            "isbn13": "978-1-348-16783-9",
+            "rating": 2.0612083,
+            "price": 519.55,
+            "author": [
+                "Micheal Edwards",
+                "Heather Ruiz"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 92,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 1827,
+            "pages": 748,
+            "isbn13": "978-1-00-388515-3",
+            "rating": 4.6557612,
+            "price": 391.49,
+            "author": [
+                "Alicia Barber",
+                "Elizabeth Nunez",
+                "Catherine Gonzalez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 93,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1885,
+            "pages": 912,
+            "isbn13": "978-1-206-08705-7",
+            "rating": 1.6411417,
+            "price": 1168.37,
+            "author": [
+                "Mackenzie Taylor",
+                "Katelyn Rogers",
+                "Marissa Stark"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 94,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 1976,
+            "pages": 277,
+            "isbn13": "978-0-413-20388-5",
+            "rating": 3.3522817,
+            "price": 1925.0,
+            "author": [
+                "Dean Proctor",
+                "Justin Wilson",
+                "Michelle Meyer"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 95,
+        "fields": {
+            "title": "Мцыри",
+            "year": 1824,
+            "pages": 440,
+            "isbn13": "978-0-9606037-8-7",
+            "rating": 4.9725836,
+            "price": 1935.69,
+            "author": [
+                "Joseph Kent",
+                "John Whitney",
+                "Justin Mccullough"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 96,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 1963,
+            "pages": 446,
+            "isbn13": "978-0-7021-6018-9",
+            "rating": 2.7012755,
+            "price": 1235.91,
+            "author": [
+                "Valerie Jackson",
+                "Brent Lee",
+                "Kevin Barry"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 97,
+        "fields": {
+            "title": "Капитанская дочка",
+            "year": 2082,
+            "pages": 610,
+            "isbn13": "978-0-412-34815-0",
+            "rating": 1.7092387,
+            "price": 1905.36,
+            "author": [
+                "Kimberly Mcintosh",
+                "James Moore MD",
+                "Monica Williams"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 98,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 2080,
+            "pages": 821,
+            "isbn13": "978-0-9579869-3-0",
+            "rating": 3.1635712,
+            "price": 1327.81,
+            "author": [
+                "Lisa Ross",
+                "Colleen Luna"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 99,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1933,
+            "pages": 663,
+            "isbn13": "978-1-267-77862-8",
+            "rating": 2.9103621,
+            "price": 927.58,
+            "author": [
+                "Michael Acosta",
+                "Robert Davis",
+                "Chelsea Savage"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 100,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 1978,
+            "pages": 805,
+            "isbn13": "978-0-295-47603-2",
+            "rating": 1.1874087,
+            "price": 294.16,
+            "author": [
+                "Miranda Johnson",
+                "Wayne Barker",
+                "Daniel Moreno"
             ]
         }
     }
