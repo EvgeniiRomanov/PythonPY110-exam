@@ -1,0 +1,82 @@
+[
+    {
+        "model": "shop_final.book",
+        "pk": 6,
+        "fields": {
+            "title": "Обезьяны против людей",
+            "year": 3792,
+            "pages": 702,
+            "isbn13": "978-1-69735-067-8",
+            "rating": 4.3368692,
+            "price": 1745.22,
+            "author": [
+                "Tammy Martin"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 7,
+        "fields": {
+            "title": "Каштанка",
+            "year": 4752,
+            "pages": 653,
+            "isbn13": "978-0-09-027589-2",
+            "rating": 1.3641467,
+            "price": 1268.57,
+            "author": [
+                "Regina Smith",
+                "Tara Mcdonald",
+                "Katherine Stephens"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 8,
+        "fields": {
+            "title": "Мцыри",
+            "year": 2540,
+            "pages": 492,
+            "isbn13": "978-0-356-96518-5",
+            "rating": 3.538505,
+            "price": 1592.71,
+            "author": [
+                "Hannah Lambert",
+                "Steven Cole",
+                "Allen Smith"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 9,
+        "fields": {
+            "title": "Каштанка",
+            "year": 3065,
+            "pages": 760,
+            "isbn13": "978-1-56300-521-3",
+            "rating": 0.0700536,
+            "price": 1688.28,
+            "author": [
+                "Travis Kelley"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 10,
+        "fields": {
+            "title": "Приключения Шурика",
+            "year": 9276,
+            "pages": 176,
+            "isbn13": "978-1-217-02874-2",
+            "rating": 2.6234413,
+            "price": 854.85,
+            "author": [
+                "Shawn Kim MD",
+                "Steven Buchanan"
+            ]
+        }
+    }
+]
