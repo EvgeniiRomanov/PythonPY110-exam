@@ -43,16 +43,12 @@ def main():
         return int(tmp_pages_str)
 
     # 3.4 func generate random isbn13
+    def gen_isbn13() -> str:
+        fake = Faker()
+        isbn13_ = fake.isbn13()
 
+        return isbn13_
 
-
-
-    # 3.4 func random generate "isbn13" from Faker
-    # def generate_random_pages(lenght_= 3) -> str:
-    #     tmp_pages = random.sample(digits, lenght_)
-    #     tmp_pages_str = "".join(tmp_pages)
-    #
-    #     return tmp_pages_str
 
     # 3.5 func random generate raiting (float)
     def generate_random_rating() -> float:
@@ -69,9 +65,16 @@ def main():
         return tmp_price
 
 
-    # 3.7 func random generate price(float)
-    def generate_author():
-        pass
+    # 3.7 func random generate from 1 to 3 authors
+    def gen_random_author() -> list:
+        name_author = []
+        count_ = random.randint(1, 3)
+        for i in range(count_):
+            fake = Faker()
+            name_author.append(fake.name())
+
+        return name_author
+
 
 if __name__ == '__main__':
     main()
