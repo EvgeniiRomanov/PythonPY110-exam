@@ -1,4 +1,6 @@
 # This is a sample Python script.
+from conf import MODEL
+
 
 def print_hi(name):
 
