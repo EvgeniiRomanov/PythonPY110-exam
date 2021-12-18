@@ -21,9 +21,9 @@ def main() -> json:
         except ValueError:
             print("Вы ввели не число, попробуйте снова.")
 
-    start_pk = 1
+    start_pk = 1                            # start number for books
     if num_tmp >= start_pk:
-        start_pk = num_tmp                  # start number for books
+        start_pk = num_tmp
         numbers_of_models = 100              # number of books load to json
         result_list = []                    # list with all books load to json
 
@@ -108,5 +108,4 @@ def generate_random_author() -> list:
 
 if __name__ == '__main__':
     main()
-
 
