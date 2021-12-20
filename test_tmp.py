@@ -25,24 +25,24 @@ def main() -> json:
     start_pk = 1                            # начальное значение счетчика
     if n >= start_pk:
         start_pk = n
-        numbers_of_models = 10              # число выгружаемых записей
+        numbers_of_models = 100              # число выгружаемых записей
         result_list = []                    # выходной список в json
 
-        # with open(OUTPUT_FILE, "w") as f:
-        #
-        #     for i in range(start_pk, numbers_of_models+1):
-        #         k_ = next(generator_library(i))
-        #         print(k_)
-        #         result_list.append(k_)
-        #         print(result_list)
-        #         json.dump(result_list, f, indent=4, ensure_ascii=False)
-
-        for number_ in range(start_pk, numbers_of_models+1):
-            k_ = next(generator_library(number_))
-            result_list.append(k_)
-
         with open(OUTPUT_FILE, "w") as f:
-            json.dump(result_list, f, indent=4, ensure_ascii=False)
+
+            for i in range(start_pk, numbers_of_models+1):
+                k_ = next(generator_library(i))
+                #print(k_)
+                result_list.append(k_)
+                #print(result_list)
+                json.dump(result_list, f, indent=4, ensure_ascii=False)
+                result_list.clear()
+        # for number_ in range(start_pk, numbers_of_models+1):
+        #     k_ = next(generator_library(number_))
+        #     result_list.append(k_)
+        #
+        # with open(OUTPUT_FILE, "w") as f:
+        #     json.dump(result_list, f, indent=4, ensure_ascii=False)
 
 
 def generator_library(count_ = 1) -> dict:
