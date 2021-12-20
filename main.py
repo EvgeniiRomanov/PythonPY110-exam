@@ -8,8 +8,12 @@ INPUT_FILE = "books.txt"
 OUTPUT_FILE = "books_JSON.json"
 
 
-def main() -> json:
-    """ Input number to start, generate book, add book to list and export to json"""
+def main():
+    """
+    Input integer number of books that will be export to json.
+    Generates the entered numbers of dictionaries and put it
+    into the list. Export list of dictionaries to json.
+    """
     while True:
         try:
             num_tmp = int(input("Введите стартовое число отсчета от 1 до 100 (по умолчанию 1): "))
@@ -21,10 +25,10 @@ def main() -> json:
         except ValueError:
             print("Вы ввели не число, попробуйте снова.")
 
-    start_pk = 1
+    start_pk = 1                            # start number for books
     if num_tmp >= start_pk:
-        start_pk = num_tmp                  # start number for books
-        numbers_of_models = 100              # number of books load to json
+        start_pk = num_tmp
+        numbers_of_models = 100             # number of books load to json
         result_list = []                    # list with all books load to json
 
         for number_ in range(start_pk, numbers_of_models+1):
@@ -36,7 +40,13 @@ def main() -> json:
 
 
 def generator_library(count_ = 1) -> dict:
-    """Generate one random book."""
+    """
+    Generate one random book.
+
+    :param count_: start count
+    :type count_: int
+    :return: dict
+    """
     all_model_ = {
         "model": MODEL,                                         # model name
         "pk": count_,                                           # position number
@@ -100,7 +110,7 @@ def generate_random_author() -> list:
     name_author = []
     count_ = random.randint(1, 3)
     for i in range(count_):
-        fake = Faker(locale = "ru_RU")
+        fake = Faker(locale="ru_RU")
         name_author.append(fake.name())
 
     return name_author
@@ -108,5 +118,3 @@ def generate_random_author() -> list:
 
 if __name__ == '__main__':
     main()
-
-
